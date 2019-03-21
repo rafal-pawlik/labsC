@@ -1,9 +1,13 @@
+//
+// Created by Kamil Woźniak on 2019-03-21.
+//
+
 #include <cstdlib>
 #include <iostream>
 #include <string>
 #include <vector>
 #include <cmath>
-#include "Point.h"
+#include "Point.hpp"
 
 using ::std::pow;
 using ::std::sqrt;
@@ -17,15 +21,15 @@ Point::~Point(){
     std::cout << "Destruktor" << '\n';
 };
 
-double Point::Distance(const Point &other) const{
+double Point::Distance(const Point &other){
     return sqrt(pow(GetX()-other.GetX(),2)+pow(GetY()-other.GetY(),2));
 }
 
-double GetX() const {
+double GetX()  {
     return x_;
 }
 
-double GetY() const {
+double GetY()  {
     return y_;
 }
 

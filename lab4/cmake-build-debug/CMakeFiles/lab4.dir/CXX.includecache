@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kamil/CLionProjects/lab4/Point.cpp
+cstdlib
+-
+iostream
+-
+string
+-
+vector
+-
+cmath
+-
+Point.hpp
+/Users/kamil/CLionProjects/lab4/Point.hpp
+
+/Users/kamil/CLionProjects/lab4/Point.hpp
+cstdlib
+-
+iostream
+-
+string
+-
+vector
+-
+
+/Users/kamil/CLionProjects/lab4/main.cpp
+iostream
+-
+Point.hpp
+/Users/kamil/CLionProjects/lab4/Point.hpp
+
